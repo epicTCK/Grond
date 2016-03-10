@@ -19,7 +19,7 @@ while (true) {
   wc = wc.replace(/\(lt\./, "(esaCrewoLot."); //toLowerCase, tl
   wc = wc.replace(/\(ut\./, "(esaCreppUot."); //toUpperCase, tu
   wc = wc.reverse();
-  wc = wc.replace(/\.l(?!\w)/, ".length"); // .lenght, .l
+  wc = wc.replace(/\.l(?!\w)/, ".length"); // .length, .l
   if (lastWC === wc)
     break;
 }
