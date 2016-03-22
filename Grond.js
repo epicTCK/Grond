@@ -26,6 +26,6 @@ while (true) {
 }
 
 // quine builtin commented out because it messes things up TODO: Fix it. 
-wc = " String.prototype.la=function(h){var x=this.split(''); x[h] = x[h].toLowerCase(); return x.join('');}String.prototype.ca=function(h){var x=this.split(''); x[h] = x[h].toUpperCase(); return x.join('');}String.prototype.reverse=function(){return this.split('').reverse().join('');} \n var h = ['hello, world', 'Hello, World', 'Hello, World!', 'hello, world!', 'hello world', 'hello world!', 'Hello World', 'Hello World!', 'Hello, world.', 'Hello, World.' ,'hello world.' , 'Hello World.']; /* var q ='" + source + "';*/ " + wc;
+wc = " String.prototype.la=function(h){var x=this.split(''); x[h] = x[h].toLowerCase(); return x.join('');};String.prototype.ca=function(h){var x=this.split(''); x[h] = x[h].toUpperCase(); return x.join('');};String.prototype.reverse=function(){return this.split('').reverse().join('');}; \n var h = ['hello, world', 'Hello, World', 'Hello, World!', 'hello, world!', 'hello world', 'hello world!', 'Hello World', 'Hello World!', 'Hello, world.', 'Hello, World.' ,'hello world.' , 'Hello World.']; /* var q ='" + source + "';*/ " + wc;
 
 eval(wc);
