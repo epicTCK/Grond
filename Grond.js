@@ -18,7 +18,7 @@ while (true) {
   wc = wc.replace(/\(ls\./, "(.ecils"); //slice, sl
   wc = wc.replace(/\(lt\./, "(esaCrewoLot."); //toLowerCase, tl
   wc = wc.replace(/\(ut\./, "(esaCreppUot."); //toUpperCase, tu
-    wc = wc.replace(/\(ps\./, "(.tilps"); //split, sp
+    wc = wc.replace(/\(ps\./, "(tilps."); //split, sp
   wc = wc.reverse();
   wc = wc.replace(/\.l(?!\w)/, ".length"); // .length, .l
   if (lastWC === wc)
