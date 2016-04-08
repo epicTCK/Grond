@@ -29,6 +29,12 @@ function replace(wc) {
   }
   return wc;
 }
+
+var source = prompt("Enter Source");
+var sourceCopy = source;
+
+
+var fullASCII = ' !#$%&()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.split('');
 var y = (a) => {
   for (let char in fullASCII) {
     if (!source.contains(char)) {
@@ -36,11 +42,6 @@ var y = (a) => {
     }
   }
 }
-var source = prompt("Enter Source");
-var sourceCopy = source;
-
-
-var fullASCII = ' !#$%&()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.split('');
 var OK = false;
 var OK2 = false;
 for(let char in fullASCII){
