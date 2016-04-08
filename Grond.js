@@ -44,7 +44,7 @@ var fullASCII = ' !#$%&()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_
 var OK = false;
 var OK2 = false;
 for(let char in fullASCII){
-  if(!source.contains(i)){
+  if(!source.contains(char)){
     OK2 = OK? true:false;
     OK = true;
   }
