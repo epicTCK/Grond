@@ -41,7 +41,17 @@ var sourceCopy = source;
 
 
 var fullASCII = ' !#$%&()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.split('');
-
+var OK = false;
+var OK2 = false;
+for(let char in fullASCII){
+  if(!source.contains(i)){
+    OK2 = OK? true:false;
+    OK = true;
+  }
+}
+if(!OK2){
+  throw "Your program uses every ASCII charactor. Grond requires your program to leave 2 ASCII chars unused. This is stupid and will be fixed.";
+}
 y('\\\"');
 y("\\\'");
 var sourceSplit = sourceCopy.split("\'");
