@@ -1,5 +1,5 @@
 # Grond
-Compiles-to-JS golfing languege  
+Compiles-to-JS golfing language 
 input is always taken first thing unless the `§` charector is at the begining of the program    
 input is stored in the variable `s` and is printed at the end of the program unless equal to the string literal `""`  
 The math module can be inported by typing the `Ś` charector as the first or second charector of the program  
