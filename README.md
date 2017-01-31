@@ -1,4 +1,6 @@
-# Grond
+# Grond  
+
+## NOT MAINTAINED
 Compiles-to-JS golfing language 
 input is always taken first thing unless the `§` character is at the beginning of the program    
 input is stored in the variable `s` and is printed at the end of the program unless equal to the string literal `""`  
